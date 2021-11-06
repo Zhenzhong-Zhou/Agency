@@ -1,1 +1,5 @@
 # Agency
+
+```
+npm run dev
+```
