@@ -10,7 +10,7 @@ const Home = () => {
             </Head>
             Homepage
         </div>
-    )
+    );
 };
 
 export default Home;
