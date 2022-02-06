@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Intro from "../components/Intro";
 
 const Home = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>Agency</title>
-                <link rel="icon" href="/icon.png"/>
+                <meta name={"description"} content={"The best Guzheng Channel!"}/>
             </Head>
-            Homepage
+            <Intro/>
         </div>
     );
 };
